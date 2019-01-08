@@ -1,11 +1,13 @@
 baseURL = "https://andskur.github.io/"
-languageCode = "en-us"
 title = "Andrew Skurlatov"
 theme = "hugo-coder"
+languageCode = "en-us"
 defaultcontentlanguage = "en"
-canonifyurls = true
 
 paginate = 20
+canonifyurls = true
+
+enableGitInfo = true
 
 pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
 pygmentscodefences = true # Enable code fence background highlighting.
@@ -24,7 +26,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     #footercontent = "Enter a text here."
 
     hidecredits = true
-    hidecopyright = false
+    hidecopyright = true
 
 	rtl = false
 
@@ -39,19 +41,24 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     weight = 1
     url = "https://github.com/andskur/"
 [[params.social]]
+    name = "Telegram"
+    icon = "fab fa-telegram fa-2x"
+    weight = 2
+    url = "https://t.me/andskur"
+[[params.social]]
     name = "Facebook"
 	icon = "fab fa-facebook fa-2x"
-    weight = 2
+    weight = 3
     url = "https://www.facebook.com/andrey.skurlatov"
 [[params.social]]
     name = "LinkedIn"
 	icon = "fab fa-linkedin fa-2x"
-    weight = 3
+    weight = 4
     url = "https://www.linkedin.com/in/andrew-skurlatov/"
 [[params.social]]
     name = "Twitter"
 	icon = "fab fa-twitter fa-2x"
-    weight = 4
+    weight = 5
     url = "https://twitter.com/Andskur1/"
 
 # Menu links
