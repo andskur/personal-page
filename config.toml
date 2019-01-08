@@ -1,0 +1,61 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Andrew Skurlatov"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+canonifyurls = true
+
+paginate = 20
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+
+[params] # theme parameters
+	author = "Andrew Skurlatov"
+	info = "CTO, Blockchain and Web developer"
+	description = "Andrew Skurlatov personal website"
+	keywords = "cv,resume,developer,personal"
+	avatarurl = "images/avatar.jpg"
+
+	#favicon_32 = "/img/favicon-32x32.png"
+    #favicon_16 = "/img/favicon-16x16.png"
+
+    #footercontent = "Enter a text here."
+
+    hidecredits = true
+    hidecopyright = false
+
+	rtl = false
+
+    math = false
+    #custom_css = ["css/custom.css"]
+
+
+	# Social links
+[[params.social]]
+    name = "Github"
+	icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/andskur/"
+[[params.social]]
+    name = "Facebook"
+	icon = "fab fa-facebook fa-2x"
+    weight = 2
+    url = "https://www.facebook.com/andrey.skurlatov"
+[[params.social]]
+    name = "LinkedIn"
+	icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/andrew-skurlatov/"
+[[params.social]]
+    name = "Twitter"
+	icon = "fab fa-twitter fa-2x"
+    weight = 4
+    url = "https://twitter.com/Andskur1/"
+
+# Menu links
+[[menu.main]]
+    name = "CV"
+    weight = 3
+    url = "Andrey_Skurlatov_CV.pdf"
